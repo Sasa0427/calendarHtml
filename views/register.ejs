@@ -6,7 +6,9 @@
 
     <body>
         <div id="bigdiv">
-            <h1>Register</h1>
+            <div id="registerdiv">
+                <h1>Register</h1>
+            </div>
             <form action="/register" method="POST">
                 <div>
                     <label for="name">Name </label>
@@ -20,7 +22,7 @@
                     <label for="password">Password</label>
                     <input type="password" id="password" name="password" required>
                 </div>
-                <div>
+                <div id="buttondiv">
                     <button type="submit">Register</button>
                 </div>
             </form>
